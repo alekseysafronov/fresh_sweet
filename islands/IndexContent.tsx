@@ -45,7 +45,7 @@ export default function IndexContent() {
     </section>
 
     <section class="about"> 
-{/* <!-- <div class="container" > --> */}
+        <div class="container" >
             <div class="about_wrap">
                 <h2>Пара слов обо мне</h2>
                 <div class="about_text">
@@ -57,7 +57,7 @@ export default function IndexContent() {
                         качественные продукты</p>
                 </div>
             </div>
-{/* <!-- </div> --> */}
+        </div> 
     </section>
 
     <section class="reviews">

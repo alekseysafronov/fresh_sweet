@@ -79,13 +79,16 @@ header button {
 
 .banner {
     /* background-image: url('assets/img/backs/top-view-from-afar-sweets-cinnamon-cupcakes-cookies-citrus-fruits-star-anise.jpg'); */
-    background-image: url('assets/img/backs/top-view-from-afar-sweets-cinnamon-cupcakes-cookies-citrus-fruits-star-anise.jpg');
+    /* background-image: url('assets/img/backs/main.jpg'); */
+    background-image: url('assets/img/backs/test.svg');
     background-position: center center;
     background-size: cover;
-    min-height: 600px;
+    min-height: 800px;
+    max-width: 1400px;
     display: flex;
     align-items: center;
     text-align: center;
+    margin: auto;
 
 }
 
@@ -195,10 +198,12 @@ header button {
 /* #region ABOUT */
 
 .about {
-    background-image: url('assets/img/backs/front-view-view-tasty-cupcake-with-strawberry-cream.jpg');
-    background-position: center center;
+    background-image: url('assets/img/backs/about.svg');
+    background-position: left center;
     background-size: cover;
     min-height: 800px;
+    max-width: 1400px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -215,6 +220,7 @@ header button {
     text-align: center;
     background-color: rgb(117, 90, 58, 0.5);
     min-height: 800px;
+    width: 50%;
 
 }
 
