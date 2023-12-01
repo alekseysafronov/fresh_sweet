@@ -1,0 +1,87 @@
+@font-face {
+    font-family: sans-serif ;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    display: inline;
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav  {
+    display:flex; 
+    justify-content:space-around; 
+    align-items: center;
+}
+
+
+
+.banner {
+    background-image: url('../img/back.jpg');
+    background-position: center center;
+    background-size: cover;
+    min-height: 400px;
+
+}
+
+.banner .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.banner .content h1 {
+    font-size: 80px;
+    color: white;
+    
+}
+
+.banner .content h2 {
+    font-size: 60px;
+    color: white;
+}
+
+
+.advantages div.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/* .footer_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+} */
+
+.advantages {
+    background-color:chocolate;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .advantages .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+body > section.advantages > div > div > p {
+    color: white;
+}

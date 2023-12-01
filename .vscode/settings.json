@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "twind.config.ts": true,
+    "README.md": true,
+    "main.ts": true,
+    "fresh.gen.ts": true,
+    "fresh.config.ts": true,
+    "dev.ts": true,
+    "deno.json": true
+  }
+}

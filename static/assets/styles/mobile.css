@@ -1,0 +1,73 @@
+@media screen and (max-width: 600px) {
+    header nav ul {
+        display: none;
+    }
+
+    header nav button {
+        display: block;
+    }
+
+    h1 {
+        font-size: xxx-large;
+    }
+
+    h2 {
+        font-size: xx-large;
+    }
+
+
+    .advantages {
+        margin: 0px;
+    }
+
+    .advantages .content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 5px;
+        padding: auto;
+    }
+
+    .select_caces {
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+    }
+
+    .map iframe {
+        width: 100%;
+    }
+
+    .review_text img {
+        /* width: 100px; */
+        height: 30%;
+    }
+
+    .review_text blockquote {
+        width: 60%;
+        padding: 5px;
+        font-size: large;
+    }
+
+    .select_cake a {
+        width: 90%;
+    }
+
+    .select_cake img {
+        width: 90%;
+    }
+
+    .container {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+
+    .feedback input {
+        width: 80%;
+    }
+
+}
